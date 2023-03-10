@@ -26,20 +26,20 @@ public class DoubleChecked {
  *     线程安全;延迟加载;效率较高
  * 结论: 在实际开发中，推荐使用这种单例设计模式
  */
-class Singleton{
+class Singleton6{
 
-    private static volatile Singleton instance;
-    private Singleton(){}
+    private static volatile Singleton6 instance;
+    private Singleton6(){}
 
     /**
      * 提供一个静态公有方法，加入双重检查的代码 ，解决线程安全问题，同时解决懒加载问题
      * 也保证了效率
      */
-    public static synchronized Singleton getInstance(){
+    public static synchronized Singleton6 getInstance(){
         if(instance==null){
-            synchronized(Singleton.class){
+            synchronized(Singleton6.class){
                 if(instance==null){
-                    instance = new Singleton();
+                    instance = new Singleton6();
                 }
             }
         }
