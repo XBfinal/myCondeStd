@@ -6,9 +6,11 @@
 * 　b、单例类必须自己创建自己的唯一实例。
 * 　c、单例类必须给所有其他对象提供这一实例。
 * 单例模式保证了全局对象的唯一性，比如系统启动读取配置文件就需要单例保证配置的一致性。
-### 分类
-* 1.饿汉式（静态常量）【可用】
-* 2.饿汉式（静态代码块）【可用】
+### 二、单例模式分类
+* 1.饿汉式（静态常量）【可用】   [饿汉式链接](https://github.com/XBfinal/Design_pattern/blob/master/src/Creative_mode/Singleton_mode/SingletonTest01.java)
+* 2.饿汉式（静态代码块）【可用】 [饿汉式链接](https://github.com/XBfinal/Design_pattern/blob/master/src/Creative_mode/Singleton_mode/SingletonTest01.java)
+
+   
 * 3.懒汉式（线程不安全）【不可用】
 * 4.懒汉式（线程安全，同步方法）【不推荐用
 * 5.懒汉式（线程安全，同步代码块）【不可用】
