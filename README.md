@@ -10,9 +10,10 @@
 * 1.饿汉式（静态常量）【可用】   [饿汉式链接](https://github.com/XBfinal/Design_pattern/blob/master/src/Creative_mode/Singleton_mode/SingletonTest01.java)
 * 2.饿汉式（静态代码块）【可用】 [饿汉式链接](https://github.com/XBfinal/Design_pattern/blob/master/src/Creative_mode/Singleton_mode/SingletonTest01.java)
 
+  饿汉式都可能造成内存的浪费
    
 * 3.懒汉式（线程不安全）【不可用】
-* 4.懒汉式（线程安全，同步方法）【不推荐用
+* 4.懒汉式（线程安全，同步方法）【不可用】
 * 5.懒汉式（线程安全，同步代码块）【不可用】
 * 6.双重检查【推荐使用】
 * 7.静态内部类【推荐使用

@@ -6,13 +6,16 @@ package Creative_mode.Singleton_mode;
  * @Package 创建型模式.单例模式
  * @Date 2023/3/10 16:25
  * @描述:=========饿汉式================
- * 一.单例模式的特点
- * 　1、单例类只能有一个实例。
- * 　2、单例类必须自己创建自己的唯一实例。
- * 　3、单例类必须给所有其他对象提供这一实例。
- * 单例模式保证了全局对象的唯一性，比如系统启动读取配置文件就需要单例保证配置的一致性。
  */
 public class SingletonTest01 {
+    /**
+     *  一.单例模式的特点
+     *  * 　1、单例类只能有一个实例。
+     *  * 　2、单例类必须自己创建自己的唯一实例。
+     *  * 　3、单例类必须给所有其他对象提供这一实例。
+     *  * 单例模式保证了全局对象的唯一性，比如系统启动读取配置文件就需要单例保证配置的一致性。
+     * @param args
+     */
     public static void main(String[] args) {
         Singleton1 instance1 = Singleton1.getInstance();
         Singleton1 instance2 = Singleton1.getInstance();
