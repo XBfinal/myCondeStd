@@ -12,9 +12,9 @@
 
   饿汉式都可能造成内存的浪费
    
-* 3.懒汉式（线程不安全）【不可用】
-* 4.懒汉式（线程安全，同步方法）【不可用】
-* 5.懒汉式（线程安全，同步代码块）【不可用】
-* 6.双重检查【推荐使用】
-* 7.静态内部类【推荐使用
-* 8.枚举【推荐使用】
+* 3.懒汉式（线程不安全）【不可用】[懒汉式](https://github.com/XBfinal/Design_pattern/blob/master/src/Creative_mode/Singleton_mode/SingletonTest02.java)
+* 4.懒汉式（线程安全，同步方法）【不可用】[懒汉式](https://github.com/XBfinal/Design_pattern/blob/master/src/Creative_mode/Singleton_mode/SingletonTest02.java)
+* 5.懒汉式（线程安全，同步代码块）【不可用】[懒汉式](https://github.com/XBfinal/Design_pattern/blob/master/src/Creative_mode/Singleton_mode/SingletonTest02.java)
+* 6.双重检查【推荐使用】[双重检查](https://github.com/XBfinal/Design_pattern/blob/master/src/Creative_mode/Singleton_mode/DoubleChecked.java)
+* 7.静态内部类【推荐使用】[静态内部类](https://github.com/XBfinal/Design_pattern/blob/master/src/Creative_mode/Singleton_mode/StaticInnerClass.java)
+* 8.枚举【推荐使用】[枚举](https://github.com/XBfinal/Design_pattern/blob/master/src/Creative_mode/Singleton_mode/Enumeration.java)
