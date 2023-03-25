@@ -1,4 +1,4 @@
-package Creative_mode.Singleton_mode;
+package Creative_mode.A01SingletonMode;
 
 /**
  * @Title: Enumeration
