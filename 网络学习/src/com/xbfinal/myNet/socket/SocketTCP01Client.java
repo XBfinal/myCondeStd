@@ -1,5 +1,8 @@
 package com.xbfinal.myNet.socket;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+import org.testng.annotations.Test;
+
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.InetAddress;
@@ -45,8 +48,6 @@ public class SocketTCP01Client {
         inputStream.close();
         System.out.println("客服端退出");
 
-
-
-
     }
+
 }
