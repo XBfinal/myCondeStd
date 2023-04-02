@@ -1,7 +1,5 @@
 package Creative_mode.A02FactoryMode.A01SimpleFactory.order;
 
-import Creative_mode.A02FactoryMode.A01SimpleFactory.pizza.CheesePizza;
-import Creative_mode.A02FactoryMode.A01SimpleFactory.pizza.GreekPizza;
 import Creative_mode.A02FactoryMode.A01SimpleFactory.pizza.Pizza;
 
 import java.io.BufferedReader;
