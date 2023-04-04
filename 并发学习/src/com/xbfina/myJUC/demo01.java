@@ -81,7 +81,7 @@ public class demo01 {
                 }
             }
             System.out.println("子线程结束"+Thread.currentThread().getName());
-        }).start();
+        },"aa").start();
 
 
     }
