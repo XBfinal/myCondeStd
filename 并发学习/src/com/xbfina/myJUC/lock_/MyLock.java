@@ -1,5 +1,6 @@
 package com.xbfina.myJUC.lock_;
 
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -38,7 +39,7 @@ class LTicket{
 
     //创建可重入锁
     private final ReentrantLock lock  = new ReentrantLock();
-
+     Condition cd =  lock.newCondition();
 
     //消费资源的方法
     public void sale() {
