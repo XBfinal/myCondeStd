@@ -4,7 +4,10 @@ import com.xbfina.myJUC.runable_.MyRunnable;
 import com.xbfina.myJUC.thread_.MyThread;
 import org.testng.annotations.Test;
 
-/**
+import java.util.ArrayList;
+import java.util.List;
+
+                                                                                            /**
  * @Title: myThread
  * @Author 笑霸fianl
  * @Package com.xbfina.myJUC
@@ -87,7 +90,17 @@ public class demo01 {
     }
 
 
+    @Test
+    void ThreadText4(){
+        List<Integer> list =new ArrayList();
+        for (int i = 0; i < 10; i++) {
+            list.add(i);
+        }
 
+        System.out.println(list.stream().reduce(0, Integer::sum));
+
+
+    }
 
 
 
