@@ -33,7 +33,7 @@ public class Test01 {
 
         FutureTask<String> task = new FutureTask<>(() -> {
             Thread.sleep(1000);
-            return "子线程";
+            return " 子线程 ";
         });
 
         new Thread(task).start();
