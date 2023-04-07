@@ -18,3 +18,5 @@
 * 6.双重检查【推荐使用】[双重检查](https://github.com/XBfinal/Design_pattern/blob/master/src/Creative_mode/Singleton_mode/DoubleChecked.java)
 * 7.静态内部类【推荐使用】[静态内部类](https://github.com/XBfinal/Design_pattern/blob/master/src/Creative_mode/Singleton_mode/StaticInnerClass.java)
 * 8.枚举【推荐使用】[枚举](https://github.com/XBfinal/Design_pattern/blob/master/src/Creative_mode/Singleton_mode/Enumeration.java)
+
+![img.png](img.png)
