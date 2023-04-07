@@ -5,10 +5,10 @@ import org.testng.annotations.Test;
 import java.util.concurrent.*;
 
 /**
- * @Title: CompletableFuture_
- * @Author 笑霸fianl
- * @Package com.xbfina.myJUC.Future
- * @Date 2023/4/7 17:50
+ * @Title:   CompletableFuture_
+ * @Author   笑霸fianl
+ * @Package  com.xbfina.myJUC.Future
+ * @Date     2023/4/7 17:50
  * @描述:
  */
 public class CompletableFuture_ {
@@ -60,7 +60,7 @@ public class CompletableFuture_ {
 
         ExecutorService threadPool2 = Executors.newFixedThreadPool(3);
 
-         CompletableFuture.supplyAsync(() -> {
+        CompletableFuture.supplyAsync(() -> {
             int sum = 0;
             for (int i = 0; i <= 10; i++) {
                 sum+=i;
