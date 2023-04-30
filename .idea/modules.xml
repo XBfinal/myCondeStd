@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/myCondeStd.iml" filepath="$PROJECT_DIR$/myCondeStd.iml" />
       <module fileurl="file://$PROJECT_DIR$/并发学习/并发学习.iml" filepath="$PROJECT_DIR$/并发学习/并发学习.iml" />
+      <module fileurl="file://$PROJECT_DIR$/算法学习/算法学习.iml" filepath="$PROJECT_DIR$/算法学习/算法学习.iml" />
       <module fileurl="file://$PROJECT_DIR$/网络学习/网络学习.iml" filepath="$PROJECT_DIR$/网络学习/网络学习.iml" />
       <module fileurl="file://$PROJECT_DIR$/设计模式/设计模式.iml" filepath="$PROJECT_DIR$/设计模式/设计模式.iml" />
       <module fileurl="file://$PROJECT_DIR$/雪花算法/雪花算法.iml" filepath="$PROJECT_DIR$/雪花算法/雪花算法.iml" />
