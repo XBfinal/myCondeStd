@@ -10,7 +10,7 @@ import java.util.HashMap;
  * @Date 2023/5/1 14:35
  * @描述: 第202题. 快乐数  https://leetcode.cn/problems/happy-number/
  */
-public class demo {
+public class demo03 {
 
     public static void main(String[] args) {
         System.out.println(isHappy(2));
