@@ -9,6 +9,8 @@ package com.xbfina.myJUC.thread_;
  */
 
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * ==============方式一 继承 Thread类
  * 1.创建一个继承于 Thread的子类
@@ -16,6 +18,10 @@ package com.xbfina.myJUC.thread_;
  * 创建对象  带哦用start（）
  */
 public class MyThread extends Thread{
+    public static void main(String[] args) {
+
+        System.out.println(GetInt());
+    }
 
     @Override
     public void run() {
@@ -25,5 +31,20 @@ public class MyThread extends Thread{
             }
         }
         System.out.println("子线程结束"+Thread.currentThread().getName());
+    }
+
+    public static int GetInt(){
+        new Thread(()->{
+
+            try {
+                TimeUnit.SECONDS.sleep(5);
+                System.out.println("分线程运行完毕");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }).start();
+        System.out.println("main运行完毕");
+
+        return 1;
     }
 }
