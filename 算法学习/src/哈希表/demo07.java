@@ -76,4 +76,11 @@ public class demo07 {
         }
         return result;
     }
+
+
+    public List<List<Integer>> fourSum2(int[] nums, int target){
+
+
+        return null;
+    }
 }
