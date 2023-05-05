@@ -14,6 +14,7 @@ public class Demo01 {
 
     }
 
+    //快慢双指针
     public static int removeElement(int[] nums, int val) {
         int len =nums.length;
         int f=0,s=0;
