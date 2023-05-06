@@ -1,4 +1,4 @@
-package com.xbfina.myJUC;
+package com.xbfina.myJUC.MyJMM;
 
 import java.util.concurrent.TimeUnit;
 
