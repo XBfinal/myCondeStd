@@ -9,6 +9,22 @@ package 字符串;
  */
 public class demo01 {
 
+
+
+    public  void reverseString2(char[] s) {
+        int length = s.length;
+        if(length==1) return ;
+        int l=0,r=length-1;
+        while (l<r){
+            s[l] ^= s[r]; //a[l]=a[l]^a[r];
+            s[r] ^= s[l]; //s[r] = a[r] ^ a[l]^a[r] =a[r];
+            s[l] ^= s[r]; // a[l] = a[l]^ a[r] = a[l]^a[r]^ a[l] =a[r];
+            l++;
+            r--;
+        }
+
+    }
+
     /**
      * 编写一个函数，其作用是将输入的字符串反转过来。输入字符串以字符数组 s 的形式给出。
      *
