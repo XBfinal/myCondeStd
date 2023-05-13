@@ -27,8 +27,23 @@ public class Demo02 {
 
     public List<List<Integer>> levelOrder(TreeNode root) {
         //checkFun01(root,0);
-        checkFun02(root);
+//        checkFun02(root);
+        Queue<TreeNode> que = new LinkedList<TreeNode>();
+        if(root!=null) que.add(root);
+        while (!que.isEmpty()){
+            List<Integer> itemList = new ArrayList<Integer>();
+            int len = que.size();
 
+            while (len > 0) {
+                TreeNode tmpNode = que.poll();
+                itemList.add(tmpNode.val);
+
+                if (tmpNode.left != null) que.offer(tmpNode.left);
+                if (tmpNode.right != null) que.offer(tmpNode.right);
+                len--;
+            }
+            resList.add(itemList);
+        }
         return resList;
     }
 
