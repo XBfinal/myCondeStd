@@ -18,9 +18,22 @@ public class ThreadState {
      * @throws InterruptedException
      */
     public static void main(String[] args) throws InterruptedException {
+
+        ThreadState threadState = new ThreadState();
         Thread na = new Thread(() -> {
 
+            synchronized (threadState){
+                threadState.notify();
+                try {
+                    threadState.wait();
+                    TimeUnit.SECONDS.sleep(1);
 
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }finally {
+                    threadState.notify();
+                }
+            }
             System.out.println(Thread.currentThread().getName() + "运行了");
         }, "na");
 
@@ -29,6 +42,22 @@ public class ThreadState {
 
         na.start();
         System.out.println(na.getState());//RUNNABLE
+
+        synchronized (threadState){
+            threadState.notify();
+            try {
+                threadState.wait();
+                TimeUnit.SECONDS.sleep(1);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }finally {
+                threadState.notify();
+            }
+        }
+        System.out.println(na.getState());//BLOCKED
+
+
+
 
 //        public enum State {
 //            /**
