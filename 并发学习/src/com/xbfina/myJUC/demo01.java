@@ -101,6 +101,17 @@ public class demo01 {
 
 
     }
+    
+    @Test
+    void CpuCore(){
+        int i = Runtime.getRuntime().availableProcessors();
+        System.out.println(i);
+
+        //
+        Runtime runtime = Runtime.getRuntime();
+        Runtime runtime2 = Runtime.getRuntime();
+        System.out.println(runtime==runtime2);
+    }
 
 
 
