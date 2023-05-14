@@ -49,6 +49,12 @@
             <artifactId>logback-classic</artifactId>
             <version>1.2.4</version>
         </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.5.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>
