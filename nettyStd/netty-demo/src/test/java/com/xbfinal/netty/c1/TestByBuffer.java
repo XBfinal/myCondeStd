@@ -36,6 +36,7 @@ public class TestByBuffer {
 
             while (allocate.hasRemaining()){
                 byte b = allocate.get();
+                //byte b1 = allocate.get(0); 注意带参数的不会影响读指指针的移动
                 System.out.print((char) b);
             }
 
