@@ -24,7 +24,7 @@ public class TestByBuffer {
         //读取文件
         try(FileChannel channel = new FileInputStream("nettyStd/netty-demo/src/main/resources/data.txt").getChannel()){
             //准备缓冲区
-            ByteBuffer allocate = ByteBuffer.allocate(10);//缓存区
+            ByteBuffer allocate = ByteBuffer.allocate(1024);//缓存区
             //向缓冲区里面写数据
             // 将字节序列从此通道读取到给定缓冲区中。
             //从此通道的当前文件位置开始读取字节，然后使用实际读取的字节数更新文件位置。
@@ -39,6 +39,10 @@ public class TestByBuffer {
                 //byte b1 = allocate.get(0); 注意带参数的不会影响读指指针的移动
                 System.out.print((char) b);
             }
+            allocate.clear();
+
+            int write = channel.write(allocate);
+
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
