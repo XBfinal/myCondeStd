@@ -19,9 +19,9 @@ public class TestFileChannelTransferTo {
 
 
         try(FileChannel from = new FileInputStream("nettyStd/netty-demo/src/main/resources/data.txt").getChannel();
-            FileChannel to = new FileOutputStream("nettyStd/netty-demo/src/main/resources/to1.txt").getChannel()
+            FileChannel to = new FileOutputStream("nettyStd/netty-demo/to1.txt").getChannel()
         ) {
-            from.transferTo(0,from.size(),to);
+            from.transferTo(0,from.size(),to);//最多只能传2g
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
