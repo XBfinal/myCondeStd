@@ -15,10 +15,10 @@ public class TestByBufferDemo01 {
 
     public static void main(String[] args) {
         ByteBuffer buffer = ByteBuffer.allocate(50);
-        buffer.put("hello\nworld\nmy name is ".getBytes()); //粘包 半包
+        buffer.put("hello\nworld\nmy name i".getBytes()); //粘包 半包
 
         hello(buffer);
-        buffer.put("my name is xbfinal!\n".getBytes());// 半包
+        buffer.put("s xbfinal!\n".getBytes());// 半包
         hello(buffer);
     }
 
