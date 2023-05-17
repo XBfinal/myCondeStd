@@ -26,8 +26,6 @@ public class TestByBufferDemo01 {
         //进来先转化为读模式
         buffer.flip();
         for (int i = buffer.position(); i <buffer.limit() ; i++) {
-
-
             if('\n' == buffer.get(i)){
                 // 我们先存入新的ByteBuffer
                 int len = i -buffer.position();
