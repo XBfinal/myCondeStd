@@ -18,6 +18,8 @@ public class Client01 {
 
         boolean connect = open.connect(new InetSocketAddress(8080));
 
+        ThreadLocal<String> stringThreadLocal = new ThreadLocal<>();
+
         open.write(Charset.defaultCharset().encode("hello1"));
 
     }
