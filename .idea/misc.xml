@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/nettyStd/pom.xml" />
+        <option value="$PROJECT_DIR$/StdSpring/pom.xml" />
       </list>
     </option>
   </component>

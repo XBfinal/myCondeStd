@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/StdSpring/StdSpring.iml" filepath="$PROJECT_DIR$/StdSpring/StdSpring.iml" />
       <module fileurl="file://$PROJECT_DIR$/myCondeStd.iml" filepath="$PROJECT_DIR$/myCondeStd.iml" />
       <module fileurl="file://$PROJECT_DIR$/nettyStd/netty-demo/netty-demo.iml" filepath="$PROJECT_DIR$/nettyStd/netty-demo/netty-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/nettyStd/nettyStd.iml" filepath="$PROJECT_DIR$/nettyStd/nettyStd.iml" />
