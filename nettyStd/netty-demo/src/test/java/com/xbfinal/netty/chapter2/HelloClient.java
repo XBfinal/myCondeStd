@@ -6,6 +6,7 @@ import io.netty.channel.ChannelInitializer;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.string.StringEncoder;
+import io.netty.util.internal.StringUtil;
 
 import java.util.Scanner;
 
@@ -44,7 +45,7 @@ public class HelloClient {
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入文字");
         String str = scanner.next();
-        while (str!=null || !str.equals("")){
+        while (str == null || str.isEmpty()){
             localhost.writeAndFlush(str);
             System.out.println("请输入文字");
             str = scanner.next();
