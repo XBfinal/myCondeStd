@@ -54,6 +54,18 @@ public class MyMain {
     }
 
 
+    /**
+     * 测试java中的注解是否会执行
+     */
+    @Test
+    void text11(){
+        int name=100;
+        System.out.println("注释之前 name="+name);
+        // \u000d name=123;
+        System.out.println("注释之后 name="+name);
+
+    }
+
 
 
 }
