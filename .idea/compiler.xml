@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="StdSpring" />
+        <module name="Myeasyexcel" />
         <module name="netty-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Myeasyexcel" target="1.8" />
       <module name="netty-demo" target="8" />
       <module name="nettyStd" target="8" />
       <module name="StdSpring" target="1.8" />
@@ -19,6 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Myeasyexcel" options="-parameters" />
       <module name="StdSpring" options="-parameters" />
     </option>
   </component>

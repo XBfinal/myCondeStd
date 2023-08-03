@@ -1,0 +1,10 @@
+server:
+  port: 8888
+
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/lottery?useUnicode=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
