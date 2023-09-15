@@ -10,12 +10,16 @@
         <module name="StdSpring" />
         <module name="Myeasyexcel" />
         <module name="netty-demo" />
+        <module name="demoStd" />
+        <module name="springStu" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demoStd" target="8" />
       <module name="Myeasyexcel" target="1.8" />
       <module name="netty-demo" target="8" />
       <module name="nettyStd" target="8" />
+      <module name="springStu" target="1.8" />
       <module name="StdSpring" target="1.8" />
     </bytecodeTargetLevel>
   </component>

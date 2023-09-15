@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springStu" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/nettyStd/pom.xml" />
         <option value="$PROJECT_DIR$/StdSpring/pom.xml" />
         <option value="$PROJECT_DIR$/Myeasyexcel/pom.xml" />
+        <option value="$PROJECT_DIR$/demoStd/pom.xml" />
+        <option value="$PROJECT_DIR$/springStu/pom.xml" />
       </list>
     </option>
   </component>

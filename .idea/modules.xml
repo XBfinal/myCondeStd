@@ -4,9 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Myeasyexcel/Myeasyexcel.iml" filepath="$PROJECT_DIR$/Myeasyexcel/Myeasyexcel.iml" />
       <module fileurl="file://$PROJECT_DIR$/StdSpring/StdSpring.iml" filepath="$PROJECT_DIR$/StdSpring/StdSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demoStd/demoStd.iml" filepath="$PROJECT_DIR$/demoStd/demoStd.iml" />
       <module fileurl="file://$PROJECT_DIR$/myCondeStd.iml" filepath="$PROJECT_DIR$/myCondeStd.iml" />
       <module fileurl="file://$PROJECT_DIR$/nettyStd/netty-demo/netty-demo.iml" filepath="$PROJECT_DIR$/nettyStd/netty-demo/netty-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/nettyStd/nettyStd.iml" filepath="$PROJECT_DIR$/nettyStd/nettyStd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springStu/springStu.iml" filepath="$PROJECT_DIR$/springStu/springStu.iml" />
       <module fileurl="file://$PROJECT_DIR$/并发学习/并发学习.iml" filepath="$PROJECT_DIR$/并发学习/并发学习.iml" />
       <module fileurl="file://$PROJECT_DIR$/算法学习/算法学习.iml" filepath="$PROJECT_DIR$/算法学习/算法学习.iml" />
       <module fileurl="file://$PROJECT_DIR$/网络学习/网络学习.iml" filepath="$PROJECT_DIR$/网络学习/网络学习.iml" />
